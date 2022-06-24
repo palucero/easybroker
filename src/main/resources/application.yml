@@ -1,0 +1,16 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: easybroker-client
+
+feign:
+  client:
+    config:
+      default:
+        loggerLevel: full
+
+easybroker:
+  url: https://api.stagingeb.com/v1
+  authorization-header: l7u502p8v46ba3ppgvj5y2aad50lb9
